@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- fav icon -->
+    <link rel="icon" href="../static/assets/images/fav-icon/fav-icon.png" />
+
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="../static/css/vendors/bootstrap.min.css" />
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="../static/css/vendors/jquery.fancybox.min.css" />
+
+    <!-- animate.css file -->
+    <link rel="stylesheet" href="../static/css/vendors/animate.css" />
+
+    <!-- Splitting -->
+    <link rel="stylesheet" href="../static/css/vendors/splitting.css" />
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="../static/css/vendors/all.min.css" />
+    <!-- Font Family -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Nunito:wght@400;500;600;700;800;900&amp;display=swap"
+    />
+
+    <!-- main-LTR-1 -->
+    <link rel="stylesheet" href="../static/css/main-LTR-1.css" />
+
+    <title>PLATE RECOGNIZER</title>
+  </head>
+  <body class="dark-theme landing-page-demo overlay-is-grey rounded-btns">
+    <!--Start Page Header-->
+    <header class="page-header menu-on-end" id="page-header">
+      <!--start navbar-->
+      <div class="container">
+        <nav class="main-navbar" id="main-nav">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="brand-logo light-logo img-fluid"
+              src="../static/assets/images/logo/logo-light-wide.png"
+              alt=""
+          /></a>
+          <div class="menu-toggler-btn">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="navbar-menu-wraper" id="navbar-menu-wraper">
+            <ul class="navbar-nav mobile-menu">
+              <li class="nav-item has-sub-menu">
+                <a class="nav-link" href="#page-hero"
+                  ><i class="fas fa-home icon"></i>home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features"
+                  ><i class="fas fa-address-card icon"></i>features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio"
+                  ><i class="fas fa-camera-retro icon"></i>results</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#processing"
+                  ><i class="fas fa-camera-retro icon"></i>processing</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--End navbar-->
+      </div>
+    </header>
+    <!--End Page Header-->
+    <!-- Start  Page hero-->
+    <section
+      class="page-hero hero-image-bg d-flex align-items-center"
+      id="page-hero"
+    >
+      <div class="particles-js" id="particles-js"></div>
+      <div class="overlay-image-bg"></div>
+      <div class="overlay-color"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 mx-auto">
+            <!--Start of .hero-text-area-->
+            <div class="hero-text-area text-center">
+              <h1 class="hero-title" data-splitting>
+                ACCURATE PLATE RECOGNIZER
+              </h1>
+              <p class="hero-subtitle narrow-centerd-text" data-splitting>
+                Introducing our cutting edge License Plate Reader software that is designed to work seamlessly in all environments, providing you with the ultimate solution for your license plate recognition needs. 
+              </p>
+              <div class="cta-links-area wow fadeInUp" data-wow-delay="1.2s">
+                <a class="ma-btn-primary cta-link" href="#processing">TRY IT NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End of .hero-text-area-->
+      </div>
+    </section>
+    <!-- End  Page hero-->
+    <!-- Start  Features Section-->
+    <section class="features mega-section section-bg-shade" id="features">
+      <div class="container">
+        <div class="section-heading center-heading">
+          <h2 class="section-title wow" data-splitting="chars">
+            awesome features
+          </h2>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay=".5s">
+            With advanced features such as real-time processing, our software is the perfect tool for law enforcement agencies, parking management companies, and security firms.
+          </p>
+          <div
+            class="line line-solid-main-color wow fadeIn"
+            data-wow-delay="1s"
+          ></div>
+        </div>
+        <div class="row features-row">
+          <!--Start First feature box-->
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <div class="feature-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="feat-icon">
+                <img
+                  class="img-icon"
+                  src="../static/assets/images/features/1.png"
+                  alt="feature image 1"
+                  draggable="false"
+                />
+              </div>
+              <div class="feat-content">
+                <h3 class="feat-title">Varied & Versatile</h3>
+                <p class="feat-text">
+                  Our technology works with vehicles of all makes and models, and is not bound by any circumstance of the environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End First feature box                    -->
+          <!--Start Second feature box-->
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <div class="feature-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="feat-icon">
+                <img
+                  class="img-icon"
+                  src="../static/assets/images/features/2.png"
+                  alt="feature image 2"
+                  draggable="false"
+                />
+              </div>
+              <div class="feat-content">
+                <h3 class="feat-title">Images & Videos</h3>
+                <p class="feat-text">
+                  We handle both Images and snapshots of Videos. We identify and decodes plates from cameras.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Second feature box-->
+          <!--Start Third feature box-->
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <div class="feature-box wow fadeInUp" data-wow-delay="0.6s">
+              <div class="feat-icon">
+                <img
+                  class="img-icon"
+                  src="../static/assets/images/features/3.png"
+                  alt="feature image 3"
+                  draggable="false"
+                />
+              </div>
+              <div class="feat-content">
+                <h3 class="feat-title">Time Efficient</h3>
+                <p class="feat-text">
+                  We provide accurate results in minimal groundbreaking processing time.  Omnis
+                  tempore perferendis explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Third feature box-->
+          <!--Start fourth feature box-->
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <div class="feature-box wow fadeInUp" data-wow-delay="0.8s">
+              <div class="feat-icon">
+                <img
+                  class="img-icon"
+                  src="../static/assets/images/features/4.png"
+                  alt="feature image 4"
+                  draggable="false"
+                />
+              </div>
+              <div class="feat-content">
+                <h3 class="feat-title">Accurate Results</h3>
+                <p class="feat-text">
+                  We provide accurate results in minimal groundbreaking processing time. Omnis
+                  tempore perferendis explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End fourth feature box-->
+        </div>
+      </div>
+    </section>
+    <!-- End  Features Section-->
+
+    <!-- Start  portfolio Section-->
+    <section
+      class="portfolio portfolio-squared-with-gaps mega-section section-bg-shade"
+      id="portfolio"
+    >
+      <div class="container">
+        <div class="section-heading center-heading">
+          <h2 class="section-title wow" data-splitting="chars">
+            results of our work
+          </h2>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay=".5s">
+            With advanced features such as real-time processing, our software is the perfect tool for law enforcement agencies, parking management companies, and security firms.
+          </p>
+          <div
+            class="line line-solid-main-color wow fadeIn"
+            data-wow-delay="1s"
+          ></div>
+        </div>
+        <div class="portfolio-wraper wow fadeInUp" data-wow-delay="0s">
+          <div class="portfolio-group">
+            <div class="row no-gutters">
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item programming">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/1.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/1.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works on Low-Res Images</span>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item blog">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/2.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/2.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works in Dark Environment </span>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item programming">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/3.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/3.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works with multiple cars</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item consulting">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/4.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/4.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works When Vehicle is Driving Fast</span>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item blog">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/5.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/5.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works on Plates with Icons</span>
+      
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 portfolio-item mobile">
+                <div class="item" style="border-radius: 10px;">
+                  <a
+                    class="portfolio-img-link"
+                    href="../static/assets/images/portfolio/6.jpg"
+                    data-fancybox=".filter"
+                  >
+                    <div class="overlay overlay-color"></div>
+                    <img
+                      class="portfolio-img img-fluid"
+                      src="../static/assets/images/portfolio/thumbs/6.jpg"
+                      alt="portfolio item photo" /><i
+                      class="fas fa-search icon"
+                    ></i
+                  ></a>
+                  <div class="item-info">
+                    <span class="info-title">Works with angles</span>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  portfolio Section-->
+
+    <section class="d-flex align-items-center main-section" id="processing">
+      <div class="container">
+        <section class="wow fadeInUp">
+          <div class="section-heading center-heading">
+            <h2 class="section-title wow" data-splitting="chars">
+              original Image
+            </h2>
+
+            <div
+              class="line line-solid-main-color wow fadeIn"
+              data-wow-delay=".4s"
+            ></div>
+          </div>
+          <div class="row">
+            <div class="col-12 mb-5">
+              <div class="img-holder mb-3" id="original-img-holder">
+                <span class="close" id="close-btn"></span>
+
+                <div class="img-wrapper" id="original-img-wrapper">
+                  <div class="preview">
+                    <img
+                      src="#"
+                      alt="Original Image"
+                      id="original-img"
+                      data-magnify-src=""
+                    />
+                  </div>
+                  <!-- buttons -->
+                  <div class="btns-area">
+                    <form action="/EEALPR" method="post" enctype="multipart/form-data">
+                      <label
+                        for="selected-origial-image"
+                        class="input-holder select-btn custom-button"
+                      >
+                        choose image
+                      </label>
+                      <input
+                        type="file"
+                        name="image"
+                        id="selected-origial-image"
+                        accept="image/*"
+                      />
+                    
+                      <input
+                        type="submit"
+                        name="origialImage"
+                        id="submiting-btn"
+                      />
+                      <button id='submitbtn' class="input-holder submit-btn custom-button secondary-btn" type="image" onclick="submit();" >Submit Image</button>
+                    </form>
+                    <form action="/show_image" target="_blank">
+                      <input type="submit" value="Show Image" hidden />
+                    </form>
+
+                    <span id="original-temp-text" class="temp-text mt-3"
+                      ><span>Or</span> <br />
+                      Drag you image here to preview</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="wow fadeInUp">
+          <div class="section-heading center-heading">
+            <h2 class="section-title wow" data-splitting="chars">
+              processed Image
+            </h2>
+            <div
+              class="line line-solid-main-color wow fadeIn"
+              data-wow-delay=".4s"
+            ></div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="wrapper" style="width: 500px;
+              height: 500px;
+              overflow: hidden;
+              margin-left: 320px;
+              text-align: center;
+              position: relative;">
+              <img src="data:image/jpeg;base64,{{ img_data }}"
+              alt="enhanced Image"
+              id="enhanced-img"
+               class="rounded" 
+               style="object-fit: contain; border: 3px solid #08bce9; width: 500px;height: 500px">
+              </div>
+                  <!-- <div class="btns-area">
+                    <span id="enahnced-temp-text" class="temp-text mt-3">
+                      enhanced image
+                    </span>
+                  </div> -->
+
+                  <div class="img-footer">
+                    <div id="img-footer-lable" class="img-footer-lable">
+                      Car Plate
+                    </div>
+                    <div id="img-footer-lable" class="img-footer-text">
+                      <span>{{ocr}}</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- End  page-footer Section-->
+    <!-- Start loading-screen Component-->
+    <div class="loading-screen" id="loading-screen">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+    <!-- End loading-screen Component-->
+    <!-- Start back-to-top Component-->
+    <div class="back-to-top" id="back-to-top">
+      <i class="fas fa-arrow-up icon"></i>
+    </div>
+    <!-- End back-to-top Component-->
+
+    <!--     JQuery     -->
+    <script src="../static/js/vendors/jquery-3.4.1.min.js"></script>
+
+    <!--     bootstrap     -->
+    <script src="../static/js/vendors/bootstrap.bundle.min.js"></script>
+
+    <!--     fancybox     -->
+    <script src="../static/js/vendors/jquery.fancybox.min.js"></script>
+
+    <!--     wow     -->
+    <script src="../static/js/vendors/wow.min.js"></script>
+
+    <!--     Splitting     -->
+    <script src="../static/js/vendors/splitting.min.js"></script>
+
+    <!--     particles     -->
+    <script src="../static/js/vendors/particles.min.js"></script>
+
+    <!--     particlesApp     -->
+    <script src="../static/js/vendors/app.js"></script>
+
+    <!--     main     -->
+    <script src="../static/js/main.js"></script>
+
+    <!--     Images main     -->
+    <script src="../static/js/images-main.js"></script>
+  </body>
+</html>
